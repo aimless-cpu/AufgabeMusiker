@@ -17,6 +17,10 @@ public class Main {
         b1.makeMusic();
         p1.makeMusic();
 
+        Musician.makeMusic();
+        GuitarPlayer.makeMusic();
+
+
 
 
 

@@ -1,5 +1,4 @@
 package com.company;
-import com.company.*;
 
 public class Artist extends Person {
     //instance
