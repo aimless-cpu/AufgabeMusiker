@@ -10,9 +10,15 @@ public class Main {
         Musician m1 = new Musician("M","Muh","Muster",50);
 
         GuitarPlayer g1 = new GuitarPlayer("M","Max","Muster",40);
+        BasePlayer b1 = new BasePlayer("M","Max","Muster",40);
 
         m1.makeMusic();
         g1.makeMusic();
+        b1.makeMusic();
+        p1.makeMusic();
+
+
+
 
         extracted();
 

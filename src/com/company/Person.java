@@ -15,6 +15,9 @@ public class Person {
     }
 
     //method
+    public static void makeMusic() {
+        System.out.println("tralalala");
+    }
 
     //getter setter
 
