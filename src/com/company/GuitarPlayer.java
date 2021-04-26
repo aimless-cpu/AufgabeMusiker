@@ -7,9 +7,11 @@ public class GuitarPlayer extends Musician {
     //instance
 
     //constructor
-    public GuitarPlayer(String artistName, String firstName, String surName, int age, boolean isMusician) {
-        super(artistName, firstName, surName, age, isMusician);
+    public GuitarPlayer(String artistName, String firstName, String surName, int age) {
+        super(artistName, firstName, surName, age);
     }
+
+
 
     //method
     public static void makeMusic() {

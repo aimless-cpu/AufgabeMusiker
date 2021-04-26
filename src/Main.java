@@ -7,7 +7,14 @@ public class Main {
         Person p1 = new Person("Max", "Muster", 10);
         Artist a1 = new Artist("MAXI", "Max", "Muster", 10);
 
+        Musician m1 = new Musician("M","Muh","Muster",50);
 
+        GuitarPlayer g1 = new GuitarPlayer("M","Max","Muster",40);
+
+        m1.makeMusic();
+        g1.makeMusic();
+
+        extracted();
 
 
         //p1.setAge(-100);
@@ -20,5 +27,9 @@ public class Main {
 
 
 	// write your code here
+    }
+
+    private static void extracted() {
+        System.out.println("test");
     }
 }
