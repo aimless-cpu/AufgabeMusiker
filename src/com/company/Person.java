@@ -7,7 +7,8 @@ public class Person {
     private int age;
 
     //constructor
-    public void Person(String firstName, String surName, int age) {
+
+    public Person(String firstName, String surName, int age) {
         this.firstName = firstName;
         this.surName = surName;
         this.age = age;
@@ -17,14 +18,10 @@ public class Person {
 
     //getter setter
 
-
     public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public String getSurName() {
         return surName;
